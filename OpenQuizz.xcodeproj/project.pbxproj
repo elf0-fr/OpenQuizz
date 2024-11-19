@@ -11,10 +11,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		76F047DA2CEBAA5A00536504 /* Exceptions for "OpenQuizz" folder in "OpenQuizz" target */ = {
+		7656F5CE2CEBF9FF0078B162 /* Exceptions for "OpenQuizz" folder in "OpenQuizz" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				"Supporting Files/Info.plist",
 			);
 			target = 76F047C72CEBAA5800536504 /* OpenQuizz */;
 		};
@@ -24,7 +24,7 @@
 		76F047CA2CEBAA5800536504 /* OpenQuizz */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				76F047DA2CEBAA5A00536504 /* Exceptions for "OpenQuizz" folder in "OpenQuizz" target */,
+				7656F5CE2CEBF9FF0078B162 /* Exceptions for "OpenQuizz" folder in "OpenQuizz" target */,
 			);
 			path = OpenQuizz;
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OpenQuizz/Info.plist;
+				INFOPLIST_FILE = "OpenQuizz/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -173,7 +173,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OpenQuizz/Info.plist;
+				INFOPLIST_FILE = "OpenQuizz/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
