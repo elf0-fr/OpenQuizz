@@ -15,13 +15,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Loading" translatesAutoresizingMaskIntoConstraints="NO" id="6Sq-Yo-mN2">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Loading" translatesAutoresizingMaskIntoConstraints="NO" id="6Sq-Yo-mN2">
                                 <rect key="frame" x="76" y="281" width="241" height="290"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPad Version" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6G-lm-PPQ">
+                                <rect key="frame" x="433" y="1306" width="166" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="166" id="j5f-qI-EJc"/>
+                                    <constraint firstAttribute="height" constant="30" id="yOt-hl-4Ez"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.34173211460000003" green="0.4217911661" blue="0.50774967670000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="P6G-lm-PPQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aDl-fk-KFp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P6G-lm-PPQ" secondAttribute="bottom" constant="20" id="w3w-rQ-DHu"/>
+                            <constraint firstItem="6Sq-Yo-mN2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xP4-OO-dNx"/>
+                            <constraint firstItem="6Sq-Yo-mN2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="yez-Bs-Fxj"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="P6G-lm-PPQ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="w3w-rQ-DHu"/>
+                                <exclude reference="aDl-fk-KFp"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="P6G-lm-PPQ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="w3w-rQ-DHu"/>
+                                <include reference="aDl-fk-KFp"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
